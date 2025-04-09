@@ -1,0 +1,500 @@
+    7  ./driver.py
+    8  python3 driver.py
+    9  q
+   10  cd projects/cs429/mm-lab-neev-rao/
+   11  ls
+   12  ./driver.py
+   13  python3 driver.py
+   14  python3 runner.py
+   15  python3 driver.py
+   16  python3 driver.py
+   17  ./runner -v -c -r traces/amptjp.rep -c
+   18  make clean
+   19  make all
+   20  make clean
+   21  make all
+   22  make clean
+   23  make clean
+   24  make all
+   25  q
+   26  q
+   27  ls
+   28  cd cs429
+   29  ls
+   30  cd mm-lab-neev-rao/
+   31  ls
+   32  ./runner -rvc traces/amptjp.rep
+   33  make clean && make debug
+   34  ./runner -rvc traces/amptjp.rep
+   35  make clean && make debug
+   36  ./runner -rvc traces/amptjp.rep
+   37  make clean && make debug
+   38  make clean && make debug
+   39  make clean && make debug
+   40  ./runner -rvc traces/amptjp.rep
+   41  python3 driver.py
+   42  make clean && make debug
+   43  ./runner -rvc traces/amptjp.rep
+   44  cd projects/cs429/mm-lab-neev-rao/
+   45  make clean
+   46  make all
+   47  make clean
+   48  make all
+   49  ./runner -v -c -r traces/amptjp.rep -c
+   50  gdb runner
+   51  make clean
+   52  make all
+   53  gdb runner
+   54  make clean
+   55  make all
+   56  ./runner -v -c -r traces/amptjp.rep -c
+   57  make clean
+   58  make all
+   59  ./runner -v -c -r traces/amptjp.rep -c
+   60  make clean && make deub
+   61  make clean && make debug
+   62  gdb ./runner
+   63  gdb ./runner
+   64  make clean && make debug
+   65  gdb ./runner
+   66  ls
+   67  python3 driver.py
+   68  make clean 
+   69  python3 driver.py
+   70  python3 driver.py
+   71  ./runner -v -c -r traces/expr-bal.rep -c
+   72  q
+   73  cd projects/cs429/mm-lab-neev-rao/
+   74  make clean
+   75  make all,
+   76  make all
+   77  ./runner -v -c -r traces/amptjp.rep -c
+   78  make clean
+   79  make all
+   80  ./runner -v -c -r traces/amptjp.rep -c
+   81  make clean
+   82  make all
+   83  make clean
+   84  make all
+   85  ./runner -v -c -r traces/amptjp.rep -c
+   86  make clean
+   87  make all
+   88  ./runner -v -c -r traces/amptjp.rep -c
+   89  make clean
+   90  make all
+   91  ./runner -v -c -r traces/amptjp.rep -c
+   92  make clean
+   93  make all
+   94  make clean
+   95  make all
+   96  ./runner -v -c -r traces/amptjp.rep -c
+   97  make clean
+   98  make all
+   99  ./runner -v -c -r traces/amptjp.rep -c
+  100  make clean
+  101  make all
+  102  ./runner -v -c -r traces/amptjp.rep -c
+  103  make clean
+  104  make all
+  105  ./runner -v -c -r traces/amptjp.rep -c
+  106  make cleanh
+  107  make clean
+  108  make all
+  109  ./runner -v -c -r traces/amptjp.rep -c
+  110  ls
+  111  gdb runner
+  112  make clean
+  113  make all
+  114  make clean
+  115  make all
+  116  ./runner -v -c -r traces/amptjp.rep -c
+  117  make clean
+  118  make all
+  119  ./runner -v -c -r traces/amptjp.rep -c
+  120  ls
+  121  gdb runner
+  122  make clean
+  123  make all
+  124  ./runner -v -c -r traces/amptjp.rep -c
+  125  gdb runner
+  126  make clean
+  127  make all
+  128  ./runner -v -c -r traces/amptjp.rep -c
+  129  gdb runner
+  130  make clean
+  131  make all
+  132  gdb runner
+  133  make clean
+  134  make all
+  135  ./runner -v -c -r traces/amptjp.rep -c
+  136  gdb runner
+  137  make clean
+  138  make all
+  139  ./runner -v -c -r traces/amptjp.rep -c
+  140  python3 driver.py
+  141  cd projects/cs429/mm-lab-neev-rao/
+  142  python3 driver.py
+  143  ./runner -v -c -r traces/expr-bal.rep -c
+  144  make clean
+  145  make all
+  146  ./runner -v -c -r traces/expr-bal.rep -c
+  147  make clean
+  148  make all
+  149  ./runner -v -c -r traces/expr-bal.rep -c
+  150  make clean
+  151  make all
+  152  gdb runner
+  153  make clean && make debug
+  154  ./runner -v -c -r traces/expr-bal.rep -c
+  155  make clean && make debug
+  156  ./runner -v -c -r traces/expr-bal.rep -c
+  157  make clean
+  158  make all
+  159  ./runner -v -c -r traces/expr-bal.rep -c
+  160  make clean
+  161  make all
+  162  ./runner -v -c -r traces/expr-bal.rep -c
+  163  make clean
+  164  make all
+  165  ./runner -v -c -r traces/expr-bal.rep -c
+  166  make clean
+  167  make all
+  168  ./runner -v -c -r traces/expr-bal.rep -c
+  169  make clean
+  170  make all
+  171  ./runner -v -c -r traces/expr-bal.rep -c
+  172  tui e
+  173  gdb runner
+  174  cd projects/cs429/mm-lab-neev-rao/
+  175  make clean
+  176  make all
+  177  cd projects/cs429/mm-lab-neev-rao/
+  178  ./runner -v -c -r traces/expr-bal.rep -c
+  179  python3 driver.py
+  180  python3 driver.py
+  181  python3 driver.py
+  182  ./runner -v -c -r traces/expr-bal.rep -c
+  183  cd cs429/
+  184  cd mm-lab-neev-rao/
+  185  ./runner -v -c -r traces/expr-bal.rep -c
+  186  cd projects/cs429/mm-lab-neev-rao/
+  187  python3 driver.py
+  188  python3 driver.py
+  189  make clean
+  190  python3 driver.py
+  191  make clean
+  192  make all
+  193  python3 driver.py
+  194  python3 driver.py
+  195  q
+  196  cd projects/cs429/mm-lab-neev-rao/
+  197  git add .
+  198  git commit -m "Passes testcases"
+  199  git push origin main
+  200  exit
+  201  cd projects/cs429/mm-lab-neev-rao/
+  202  ls
+  203  bash coalescecheck.sh
+  204  pwd
+  205  bash coalescecheck.sh
+  206  bash coalescecheck.sh
+  207  python3 driver.py
+  208  python3 driver.py
+  209  python3 driver.py
+  210  python3 driver.py
+  211  cd projects/cs429/m
+  212  cd projects/cs429/mm-lab-neev-rao/
+  213  python3 driver.py
+  214  ./runner -v -c -r traces/amptjp-bal.rep -c
+  215  ./mm-lab-neev-rao/runner -ru mm-lab-neev-rao/traces/cp-decl.rep >> output.txt
+  216  ./runner -v -c -r traces/amptjp-bal.rep -c
+  217  tui e
+  218  make clean
+  219  make all
+  220  tui e
+  221  gdb runner
+  222  python3 driver.py
+  223  ./runner -v -c -r traces/amptjp.rep -c
+  224  make clean
+  225  make all
+  226  make clean
+  227  make all
+  228  ./runner -v -c -r traces/amptjp.rep -c
+  229  make clean
+  230  make all
+  231  ./runner -v -c -r traces/amptjp.rep -c
+  232  make clean
+  233  make all
+  234  ./runner -v -c -r traces/amptjp.rep -c
+  235  gdb runner
+  236  make clean
+  237  make all
+  238  gdb runner
+  239  make clean
+  240  make all
+  241  ./runner -v -c -r traces/amptjp.rep -c
+  242  make clean
+  243  make all
+  244  ./runner -v -c -r traces/amptjp.rep -c
+  245  make clean
+  246  make all
+  247  make clean
+  248  make all
+  249  ./runner -v -c -r traces/amptjp.rep -c
+  250  gdb runner
+  251  make clean
+  252  make all
+  253  make clean
+  254  make all
+  255  ./runner -v -c -r traces/amptjp.rep -c
+  256  gdb runner
+  257  make clean
+  258  make all
+  259  gdb runner
+  260  make clean
+  261  make all
+  262  ./runner -v -c -r traces/amptjp.rep -c
+  263  python3 driver.py
+  264  exit
+  265  python3 driver.py
+  266  cd projects/cs429/mm-lab-neev-rao/
+  267  python3 driver.py
+  268  python3 driver.py
+  269  q
+  270  ls
+  271  cd projects/cs429/mm-lab-neev-rao/
+  272  python3 driver.py
+  273  git add .
+  274  git commit -m "Comments & Formatting"
+  275  git push origin main
+  276  cd projects/cs429/m
+  277  cd projects/cs429/mm-lab-neev-rao/
+  278  make clean
+  279  make all
+  280  cd projects/cs429/mm-lab-neev-rao/
+  281  ls
+  282  python3 driver.py
+  283  python3 driver.py
+  284  python3 driver.py
+  285  make clean
+  286  make all
+  287  ./runner -v -c -r traces/cccp.rep -c
+  288  gdb runner
+  289  make clean
+  290  make all
+  291  ./runner -v -c -r traces/cccp.rep -c
+  292  python3 driver.py
+  293  coalescecheck.sh
+  294  bash coalescecheck.sh
+  295  bash coalescecheck.sh
+  296  python3 driver.py
+  297  python3 driver.py
+  298  pwd
+  299  cd ..
+  300  cd mm-lab-neev-rao/
+  301  mb
+  302  RAKSHA
+  303  write RAKSHA
+  304  wrike rishabp RAKSHA
+  305  write rishabp RAKSHA
+  306  write rishabp@king-of-tokyo RAKSHA
+  307  bash coalescecheck.sh
+  308  ls ..
+  309  ls
+  310  cd ..
+  311  ls
+  312  bash coalescecheck.sh
+  313  pwd
+  314  ls
+  315  less output.txt
+  316  bash coalescecheck.sh
+  317  bash coalescecheck.sh
+  318  make clean
+  319  ls
+  320  cd mm-lab-neev-rao/
+  321  make clean
+  322  make all
+  323  bash coalescecheck.sh
+  324  cd ..
+  325  bash coalescecheck.sh
+  326  make clean
+  327  cd mm-lab-neev-rao/
+  328  make clean
+  329  make all
+  330  cd ..
+  331  ls
+  332  cd mm-lab-neev-rao/
+  333  cd ..
+  334  pwd
+  335  bash coalescecheck.sh
+  336  make clean
+  337  cd ..
+  338  cd cs429/mm-lab-neev-rao/
+  339  make clean
+  340  make all
+  341  cd ..
+  342  bash coalescecheck.sh
+  343  bash coalescecheck.sh
+  344  make clean
+  345  cd ..
+  346  make clean
+  347  cd cs429/mm-lab-neev-rao/
+  348  make clean
+  349  make all
+  350  cd ..
+  351  bash coalescecheck.sh
+  352  bash coalescecheck.sh
+  353  bash coalescecheck.sh
+  354  bash coalescecheck.sh
+  355  cd mm-lab-neev-rao/
+  356  python3 driver.py
+  357  python3 driver.py
+  358  make clean
+  359  make all
+  360  python3 driver.py
+  361  make clean
+  362  make all
+  363  python3 driver.py
+  364  make clean
+  365  make all
+  366  python3 driver.py
+  367  python3 driver.py
+  368  make clean
+  369  make all
+  370  make clean
+  371  make all
+  372  python3 driver.py
+  373  git add .
+  374  git commit -m "Added splitting and coalescing - 75% Util"
+  375  git push origin main
+  376  python3 driver.py
+  377  python3 driver.py
+  378  python3 driver.py
+  379  pwd
+  380  ls
+  381  ls
+  382  cd projects/cs429/
+  383  ls
+  384  git clone https://github.com/CS429-SP2025/shared-repo-version-b-neev-rao.git
+  385  git clone git@github.com:CS429-SP2025/shared-repo-version-b-neev-rao.git
+  386  ls
+  387  cd shared-repo-version-b-neev-rao/
+  388  ls
+  389  make clean
+  390  make all
+  391  make check main.c
+  392  make clean
+  393  make tests main.c
+  394  tui e
+  395  gdb main.c
+  396  make clean
+  397  make 
+  398  mini_ci basic_add.s
+  399  mini_ci_reference testcases/basic_add.s
+  400  mini_ci testcases/basic_add.s
+  401  gdb mini_ci
+  402  gdb main.c
+  403  gdb main.c
+  404  make clean
+  405  make 
+  406  gdb mini_ci
+  407  make clean
+  408  make debug
+  409  gdb ci_mini
+  410  gdb mini_ci
+  411  make clean
+  412  make all
+  413  make
+  414  mini_ci testcases/basic_add.s
+  415  make clean
+  416  make
+  417  mini_ci testcases/basic_add.s
+  418  make clean
+  419  make all
+  420  make
+  421  gdb mini_ci
+  422  make clean
+  423  make debug
+  424  gdb mini_ci
+  425  make clean
+  426  make debug
+  427  gdb mini_ci
+  428  make clean
+  429  make debug
+  430  gdb mini_ci
+  431  make clean
+  432  make debug
+  433  gdb mini_ci
+  434  y
+  435  git add .
+  436  git commit -m "."
+  437  git push origin main
+  438  git add .
+  439  git commit -m "init"
+  440  git push origin main
+  441  git push origin master
+  442  exit
+  443  ls
+  444  cd cs429
+  445  l
+  446  ls
+  447  cd ../
+  448  cd cs429/
+  449  rm -rf shared-repo-version-b-neev-rao/
+  450  users
+  451  ls
+  452  cd projects/cs429
+  453  ls
+  454  git clone git@github.com:CS429-SP2025/se-lab-tarun-neev.git
+  455  ls
+  456  cd se-lab-tarun-neev/
+  457  ls
+  458  make
+  459  lw
+  460  ls
+  461  ls
+  462  make clean
+  463  make debug 
+  464  make -h
+  465  make -d
+  466  make clean
+  467  make week2
+  468  git pull
+  469  ls
+  470  less
+  471  less src/pipe/instr_Memory.c
+  472  make
+  473  make week2
+  474  ls
+  475  less Makefile
+  476  ./bin
+  477  ./verify.py
+  478  ./src
+  479  ls
+  480  cd ./bin
+  481  ls
+  482  ./test-hw
+  483  ./se-ref-wk2
+  484  ls
+  485  cd ..
+  486  ls
+  487  make clean && make
+  488  bin/test-hw
+  489  cd bin
+  490  ls
+  491  ./se-ref-wk2
+  492  ls
+  493  ./se
+  494  ./test-se
+  495  chmod +rwx testcases/basics
+  496  ls
+  497  cd ..
+  498  bin/test-se
+  499  make week2
+  500  cd mastery-version-a/
+  501  ls
+  502  ls -a
+  503  vim .gdb_history 
+  504  ls
+  505  history
+  506  history >> log.txt
